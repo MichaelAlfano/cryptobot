@@ -21,4 +21,11 @@ def calculate_rsi(prices, period = config.RSI_PERIOD):
     # Calculate relative strength index (RSI)
     rsi = 100 - (100 / (1 + rs))
 
-    return rsi
+    # Round the RSI value to 3 decimal places
+    return round(rsi, 3)
+
+def calculate_signal():
+    return None
+
+def calculate_MACD():
+    return None
